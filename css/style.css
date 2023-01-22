@@ -1,0 +1,107 @@
+
+/************ HTML ELEMENTS STYLE ************/
+
+
+body{
+    background-color: #bdccf7;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: 'Seymour One', sans-serif;
+    margin-bottom: 3%;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+iframe{
+    border: 0;
+    /* position: relative;
+    bottom: 100px; */
+}
+
+/************ CLASSES STYLE ************/
+.container-fluid{
+    padding: 2% 5% 0%;
+    background-color: #2f312f;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.top-container{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -70px;
+}
+
+.world-img{
+    position: relative;
+    z-index: 30;
+}
+
+.tag-line{
+    padding-top: 30px;
+    margin-bottom: 3%;
+}
+
+.middle-container{
+    text-align: center;
+    position: relative;
+    z-index: 20;
+}
+
+.bottom-container{
+    text-align: center;
+    margin: 7% 0% 4%;
+}
+
+.cta{
+    margin-bottom: 50px;
+}
+.social-icon{
+    margin: 20px 30px;
+    color: #FFF;
+}
+
+.social-icon:hover{
+    color:rgb(124, 193, 236);
+}
+
+
+#footer{
+    background-color: #FFF;
+    padding: 2% 2%;
+    color: #97D2EC;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+/************ ID STYLE ************/
+
+
+
+/* Color of the world */
+/* HEX: #4178BD - #5EA0D9 */
+
+/* Colors  */
+/* blue color:  bdccf7
+body{    background-color: #97D2EC
+gray color: 2f312f */
