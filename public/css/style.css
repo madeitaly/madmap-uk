@@ -2,7 +2,7 @@
 /************ HTML ELEMENTS STYLE ************/
 
 body{
-    background-color: #bacdfb;
+    background-color: #2f312f;  /*bacdfb;*/ 
     color: rgb(254, 245, 225);
     font-family: 'Lato', sans-serif;
 }
@@ -75,11 +75,14 @@ iframe{
 
 .middle-container{
     text-align: center;
+    background-color: #bacdfb;
+    padding-bottom: 7%;
 }
 
 .bottom-container{
     text-align: center;
-    margin: 4% 0% 3%;
+    padding: 1% 0% 3%;
+    background-color: #889195;
 }
 
 .cta{
