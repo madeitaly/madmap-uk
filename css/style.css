@@ -2,8 +2,8 @@
 /************ HTML ELEMENTS STYLE ************/
 
 body{
-    background-color: #bdccf7;
-    color: #2f312f;
+    background-color: #bacdfb;
+    color: rgb(254, 245, 225);
     font-family: 'Lato', sans-serif;
 }
 
@@ -11,26 +11,31 @@ h1{
     font-size: 4.5rem;
     font-family: 'Seymour One', sans-serif;
     margin-bottom: 3%;
-    color: #FFF;
 }
 
 h2{
     font-size: 3rem;
     font-weight: 100;
-    color: #FFF;
 }
 
 iframe{
     border: 0;
 }
 
+
+
 /************ CLASSES STYLE ************/
 .container-fluid{
-    padding: 2% 5% 0%;
-    background-color: #97D2EC;
+    padding: 0%;
+    background-color: #889195;
 }
 
 /* Navigatio Bar */
+.navbar{
+    background-color: #2f312f;
+    padding: 10px 80px 10px 80px;
+}
+
 .navbar-brand{
     font-size: 2rem;
     font-weight: 300;
@@ -41,14 +46,14 @@ iframe{
 }
 
 .nav-link{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 
 /* Merging sections */
 .top-container{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-bottom: -130px;
 }
 
@@ -82,7 +87,7 @@ iframe{
 }
 .social-icon{
     margin: 20px 30px;
-    color: #FFF;
+    color: rgb(254, 245, 225);
 }
 
 .social-icon:hover{
