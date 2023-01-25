@@ -1,10 +1,9 @@
 
 /************ HTML ELEMENTS STYLE ************/
 
-
 body{
     background-color: #bdccf7;
-    color: #FFF;
+    color: #2f312f;
     font-family: 'Lato', sans-serif;
 }
 
@@ -12,25 +11,26 @@ h1{
     font-size: 4.5rem;
     font-family: 'Seymour One', sans-serif;
     margin-bottom: 3%;
+    color: #FFF;
 }
 
 h2{
     font-size: 3rem;
     font-weight: 100;
+    color: #FFF;
 }
 
 iframe{
     border: 0;
-    /* position: relative;
-    bottom: 100px; */
 }
 
 /************ CLASSES STYLE ************/
 .container-fluid{
     padding: 2% 5% 0%;
-    background-color: #2f312f;
+    background-color: #97D2EC;
 }
 
+/* Navigatio Bar */
 .navbar-brand{
     font-size: 2rem;
     font-weight: 300;
@@ -45,15 +45,22 @@ iframe{
     font-weight: 300;
 }
 
+/* Merging sections */
 .top-container{
     text-align: center;
     margin-top: 5%;
-    margin-bottom: -70px;
+    margin-bottom: -130px;
 }
 
 .world-img{
     position: relative;
     z-index: 30;
+}
+
+.banner{
+    height: 130px;
+    margin-bottom: -67px;
+    background-color: #2f312f;
 }
 
 .tag-line{
@@ -63,13 +70,11 @@ iframe{
 
 .middle-container{
     text-align: center;
-    position: relative;
-    z-index: 20;
 }
 
 .bottom-container{
     text-align: center;
-    margin: 7% 0% 4%;
+    margin: 4% 0% 3%;
 }
 
 .cta{
@@ -81,26 +86,25 @@ iframe{
 }
 
 .social-icon:hover{
-    color:rgb(124, 193, 236);
+    color: #2f312f;
 }
 
 
+
+/************ ID STYLE ************/
 #footer{
-    background-color: #FFF;
+    background-color: #2f312f;
     padding: 2% 2%;
     color: #97D2EC;
     text-align: center;
     font-weight: 100;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
-
-/************ ID STYLE ************/
 
 
 
 /* Color of the world */
 /* HEX: #4178BD - #5EA0D9 */
-
 /* Colors  */
 /* blue color:  bdccf7
 body{    background-color: #97D2EC
