@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Check this website: https://mapstyle.withgoogle.com/ -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,70 +55,26 @@
                             <a class="nav-link" href="#my-map">My Map</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#find-me">Find Me</a>
+                            <a class="nav-link" href="#find-me">Follow Me</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-
-            <!-- Title Part -->
-
-            <div class="top-container">
-                <h1>I'm Matteo<span class="easter-egg">*</span></h1>
-                                
-                <div class="typing-container">
-                    <h2 class="tag-line">
-                        <span id="sentence" class="sentence">and I am </span>
-                    <span id="feature-text"></span>
-                    <span class="input-cursor"></span>
-                    </h2>
-                </div>
-
-                <img class="world-img" src="/images/globe-light.png" alt="drawing of the globe">
-            </div>
         </div>
-
     </section>
 
     <section id="my-map">
-
-        <div class="banner"></div>
-
-        <div class="middle-container">
-
-            <img class="map-image" src="images/world-map2.png" alt="map of the world" draggable="false">
-            <div class="middle-text col-lg-4">
-                <h2>Curious about the nomad lifestyle?</h2>
-                <a href="/map">
-                    <button type="button" class="btn btn-dark btn-lg map-button">Check my
-                        Map<i class="fa-solid fa-map-location-dot"></i></button>
-                </a>
-                <p class="button-note">Powered by Google © My Maps</p>
-                <h3>It's a map that tells the story of my last four years travelling around the world.</h3>
+        <div class="map-container">
+            <div class="left-hint">
+                <h3>Access the legend</h3>
             </div>
-        </div>
-    </section>
-
-    <section id="newsletter">
-        <div class="banner"></div>
-        <div class="container-fluid">
-            <main class="form-signin w-100 m-auto">
-                <form action="/" method="post">
-
-                    <div class="thumb-icon">
-                        <img class="mb-4 thumb-image" src="images/icon-nature.png" alt="drawing-nature" width="300"
-                            draggable="false">
-                    </div>
-
-                    <h2 class="h3 mb-3 fw-normal">Signup to my Newsletter</h2>
-
-                    <input type="text" name="fName" class="form-control input-top" placeholder="First Name">
-                    <input type="text" name="lName" class="form-control input-middle" placeholder="Last Name">
-                    <input type="email" name="email" class="form-control input-bottom" placeholder="Email">
-
-                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-                </form>
-            </main>
+            <div class="right-hint">
+                <h3>View full screen</h3>
+            </div>
+            <div class="left-arrow"><i class="fa-solid fa-arrow-right fa-2xl fa-beat-fade"></i></div>
+            <div class="right-arrow"><i class="fa-solid fa-arrow-left fa-2xl fa-beat-fade"></i></div>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rxlFlfZ9D8SFBWCp5_L6I4cngKJZF19f&ehbc=2E312F"
+                width="90%" height="760" title="Interactive map showing my travels" loading="eager"></iframe>
         </div>
     </section>
 
@@ -149,9 +103,6 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.7.0.js"
-        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <script src="index.js" type="module"></script>
 </body>
 
 </html>

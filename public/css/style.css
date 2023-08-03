@@ -1,119 +1,290 @@
-
 /************ HTML ELEMENTS STYLE ************/
 
-body{
-    background-color: #2f312f;  /*bacdfb;*/ 
+body {
+    background-color: #2f312f;
     color: rgb(254, 245, 225);
     font-family: 'Lato', sans-serif;
 }
 
-h1{
+h1 {
     font-size: 4.5rem;
     font-family: 'Seymour One', sans-serif;
     margin-bottom: 3%;
 }
 
-h2{
-    font-size: 3rem;
+h2 {
+    font-size: 3.3rem;
     font-weight: 100;
 }
 
-iframe{
+h3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+iframe {
     border: 0;
 }
 
 
 
 /************ CLASSES STYLE ************/
-.container-fluid{
+.container-fluid {
     padding: 0%;
     background-color: #889195;
 }
 
 /* Navigatio Bar */
-.navbar{
+.navbar {
     background-color: #2f312f;
     padding: 10px 80px 10px 80px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2rem;
     font-weight: 300;
 }
 
-.nav-item{
+.nav-item {
     padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.3rem;
     font-weight: 300;
 }
 
-/* Merging sections */
-.top-container{
-    text-align: center;
-    margin-top: 7%;
-    margin-bottom: -130px;
+.easter-egg {
+    font-size: 1rem;
+    margin-bottom: 4rem;
 }
 
-.world-img{
+/* Type-writer Effect section */
+.typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 45px;
+    background-color: rgb(254, 245, 225);
+    animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/* Merging sections */
+.top-container {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: -70px;
+    position: relative;
+}
+
+.world-img {
     position: relative;
     z-index: 30;
 }
 
-.banner{
-    height: 130px;
-    margin-bottom: -67px;
+.banner {
+    height: 10px;
     background-color: #2f312f;
 }
 
-.tag-line{
+.tag-line {
     padding-top: 30px;
     margin-bottom: 3%;
 }
 
-.middle-container{
+.middle-container {
     text-align: center;
     background-color: #bacdfb;
-    padding-bottom: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: relative;
 }
 
-.bottom-container{
+.middle-text {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
+
+.fa-map-location-dot {
+    margin-left: 5px;
+}
+
+/* Map Button */
+.map-button {
+    margin: 5% 5% 0% 0%;
+}
+
+.button-note {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -22px;
+    margin-bottom: 55px;
+    color: #2f312f;
+}
+
+
+/* Map Image */
+.map-image {
+    max-width: 100%;
+}
+
+/* Map Page container */
+.map-container {
+    color: #2f312f;
+    text-align: center;
+    background-color: #889195;
+    position: relative;
+}
+
+.right-hint {
+    position: absolute;
+    top: 6%;
+    right: 7%;
+}
+
+.left-hint {
+    position: absolute;
+    top: 6%;
+    left: 7%;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 7.2rem;
+    right: 4%;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 7.2rem;
+    left: 4%;
+}
+
+iframe {
+    padding: 0 2% 0 2%;
+    ;
+    margin: 6rem 0 8% 0;
+}
+
+/* Newsletter Section */
+.thumb-icon {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.thumb-image {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.input-top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-middle {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.input-bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.bottom-container {
     text-align: center;
     padding: 1% 0% 3%;
     background-color: #889195;
 }
 
-.cta{
+/* Success and Failure pages */
+.container-text {
+    padding: 7% 10% 7% 10%;
+}
+
+.container-text > h1 {
+    font-size: 3rem;
+}
+
+.container-text > h2 {
+    font-size: 2.5rem;
+}
+
+.container-text button {
+    margin: 7% 0% 7% 2%;
+}
+
+.cta {
     margin-bottom: 50px;
 }
-.social-icon{
+
+.social-icon {
     margin: 20px 30px;
     color: rgb(254, 245, 225);
 }
 
-.social-icon:hover{
+.social-icon:hover {
     color: #2f312f;
 }
 
+/* Easter Egg section */
+h1 span:hover {
+    color: #5c615c;
+}
 
 
 /************ ID STYLE ************/
-#footer{
+#footer {
     background-color: #2f312f;
     padding: 2% 2%;
-    color: #97D2EC;
+    color: #889195;
     text-align: center;
     font-weight: 100;
     font-size: 1.1rem;
 }
-
-
-
-/* Color of the world */
-/* HEX: #4178BD - #5EA0D9 */
-/* Colors  */
-/* blue color:  bdccf7
-body{    background-color: #97D2EC
-gray color: 2f312f */
