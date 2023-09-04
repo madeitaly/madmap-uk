@@ -32,7 +32,7 @@ iframe {
 .container-fluid {
     padding: 0%;
     background-color: #889195;
-}
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='59.428' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(198, 6%, 56%, 1)'/><path d='M0 70.975V47.881m20-1.692L8.535 52.808v13.239L20 72.667l11.465-6.62V52.808zm0-32.95l11.465-6.62V-6.619L20-13.24 8.535-6.619V6.619L20 13.24m8.535 4.927v13.238L40 38.024l11.465-6.62V18.166L40 11.546zM20 36.333L0 47.88m0 0v23.094m0 0l20 11.548 20-11.548V47.88m0 0L20 36.333m0 0l20 11.549M0 11.547l-11.465 6.619v13.239L0 38.025l11.465-6.62v-13.24L0 11.548v-23.094l20-11.547 20 11.547v23.094M20 36.333V13.24'  stroke-linecap='square' stroke-width='0.5' stroke='hsla(231, 8%, 65%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-40,-1.712)' fill='url(%23a)'/></svg>")}
 
 /* Navigatio Bar */
 .navbar {
@@ -120,10 +120,13 @@ iframe {
 
 .middle-container {
     text-align: center;
-    background-color: #bacdfb;
+    /* background-color: #bacdfb; */
+    background-image: url(../images/world-map.png);
+    background-size: auto 600px;
     padding-left: 2%;
     padding-right: 2%;
     position: relative;
+    height: 600px;
 }
 
 .middle-text {
@@ -146,7 +149,7 @@ iframe {
     text-align: center;
     margin-top: 5px;
     margin-left: -22px;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
     color: #2f312f;
 }
 
@@ -195,6 +198,22 @@ iframe {
 }
 
 /* Newsletter Section */
+
+.newsletter-text {
+    text-align: center;
+}
+
+.form-text {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: rgb(254, 245, 225);
+    margin: 0% 0% 6% 0%;
+}
+
+.form-signin {
+    background-color: #889195;
+}
+
 .thumb-icon {
     position: relative;
     width: 300px;
@@ -287,4 +306,124 @@ h1 span:hover {
     text-align: center;
     font-weight: 100;
     font-size: 1.1rem;
+}
+
+
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .navbar {
+        padding: 10px 50px 10px 50px;
+    }
+
+    .world-img {
+        width: 440px;
+    }
+
+    .middle-container {
+        background-position: 15% 50%;
+    }
+
+    .middle-text {
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+    
+
+    .middle-text-question {
+        color: #2f312f;
+        text-shadow: 1px 1px 1px #626262;
+    }
+    
+    .map-button {
+        margin: 12% 0% 0% 0%;
+    }
+
+    .button-note {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: -22px;
+        margin-bottom: 60px;
+        color: #2f312f;
+    }
+
+    .map-explanation {
+        color: #2f312f;
+        padding: 0% 7% 0% 7%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3.7rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .navbar {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .top-container {
+        margin-top: 15%;
+        margin-bottom: -40px;
+    }
+
+    .world-img {
+        width: 350px;
+    }
+
+    .middle-container {
+        background-position: center;
+    }
+
+    .map-image {
+        height: 100%;
+    }
+
+    .middle-text {
+        top: 12%;
+    }
+
+    .middle-text-question {
+        color: #2f312f;
+        text-shadow: 1px 1px 1px #626262;
+    }
+
+    .map-button {
+        margin: 12% 0% 0% 0%;
+    }
+
+    .button-note {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: -22px;
+        margin-bottom: 175px;
+        color: #2f312f;
+    }
+
+    .map-explanation {
+        color: #2f312f;
+        padding: 0% 5% 0% 5%;
+    }
+
+
+    .h3 {
+        visibility: hidden;
+    }
+
+    .form-text {
+        font-size: 1.2rem;
+        color: rgb(254, 245, 225);
+        margin: -18% 0% 6% 0%;
+    }
+    
 }

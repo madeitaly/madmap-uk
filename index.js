@@ -7,7 +7,8 @@ const carouselText = [
     { text: "a thinker.", color: "rgb(254, 245, 225)" },
     { text: "a traveller.", color: "rgb(254, 245, 225)" },
     { text: "an optmist.", color: "rgb(254, 245, 225)" },
-    { text: "an idiot.", color: "rgb(254, 245, 225)" },
+    { text: "a dreamer.", color: "rgb(254, 245, 225)" },
+    // { text: "an idiot.", color: "rgb(254, 245, 225)" },
     { text: "anything I want.", color: "rgb(254, 245, 225)" }
 ]
 
