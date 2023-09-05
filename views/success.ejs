@@ -1,0 +1,23 @@
+<%- include("header") -%>
+
+<section id="landing">
+    <div class="container-fluid">
+
+        <!-- Nav Bar -->
+        <%- include("navbar") -%>
+        
+    </div>
+
+    <div class="container-fluid">
+        <div class="container-text">
+            <h1>Awesome!</h1>
+            <h2>You've been successfully signed up to my newsletter.</h2>
+            <form action="/success" method="post">
+                <button class="btn btn-warning btn-lg" type="submit" name="button">Go Back</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+<%- include("footer") -%>

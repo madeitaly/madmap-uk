@@ -8,6 +8,9 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
+
+app.set('view engine', 'ejs');
+
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -16,7 +19,7 @@ const port = process.env.PORT;
 
 
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/index.html");
+    res.render("index");
 })
 
 
@@ -51,9 +54,9 @@ app.post("/", function (req, res) {
     axios.post(url, data, options)
         .then(function (response) {
             if (response.status === 200) {
-                res.sendFile(__dirname + "/success.html");
+                res.render("success");
             } else {
-                res.sendFile(__dirname + "/failure.html");
+                res.render("failure");
             }
         })
         .catch(function (error) {
@@ -75,16 +78,8 @@ app.post("/failure", function (req, res) {
 })
 
 app.get("/map", function (req, res) {
-    res.sendFile(__dirname + "/map.html");
+    res.render("map");
 })
-
-// app.get("/success", function (req, res) {
-//     res.sendFile(__dirname + "/success.html");
-// })
-
-// app.get("/failure", function (req, res) {
-//     res.sendFile(__dirname + "/failure.html");
-// })
 
 app.listen(port, function () {
     console.log(`Server running on port ${port}`);

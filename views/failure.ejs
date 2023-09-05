@@ -1,0 +1,25 @@
+<%- include("header") -%>
+
+<section id="landing">
+    <div class="container-fluid">
+
+        <!-- Nav Bar -->
+        <%- include("navbar") -%>
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="container-text">
+            <h1>Oooops!</h1>
+            <h2>There was a problem signing you up.<br> Please, try again or contact our
+                developer!</p>
+            </h2>
+            <form action="/failure" method="post">
+                <button class="btn btn-warning btn-lg" type="submit" name="button">Try Again</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<%- include("footer") -%>

@@ -67,7 +67,6 @@ iframe {
     margin-bottom: 2%;
 }
 
-
 .input-cursor {
     display: inline-block;
     width: 2px;
@@ -93,7 +92,6 @@ iframe {
         opacity: 0;
     }
 }
-
 
 /* Merging sections */
 .top-container {
@@ -135,6 +133,11 @@ iframe {
     left: 4%;
 }
 
+.middle-text-question {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .fa-map-location-dot {
     margin-left: 5px;
 }
@@ -152,7 +155,6 @@ iframe {
     margin-bottom: 35px;
     color: #2f312f;
 }
-
 
 /* Map Image */
 .map-image {
@@ -332,11 +334,9 @@ h1 span:hover {
         top: 20%;
         left: 0%;
     }
-    
 
     .middle-text-question {
         color: #2f312f;
-        text-shadow: 1px 1px 1px #626262;
     }
     
     .map-button {
@@ -394,7 +394,7 @@ h1 span:hover {
 
     .middle-text-question {
         color: #2f312f;
-        text-shadow: 1px 1px 1px #626262;
+        font-weight: 200;
     }
 
     .map-button {
@@ -414,7 +414,6 @@ h1 span:hover {
         color: #2f312f;
         padding: 0% 5% 0% 5%;
     }
-
 
     .h3 {
         visibility: hidden;
